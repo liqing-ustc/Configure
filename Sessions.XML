@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSessionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SessionData SessionId="HTCC Cluster Portal/htcc1g" SessionName="htcc1g" ImageKey="computer" Host="qli277@htcc1g.cs.cityu.edu.hk" Port="22" Proto="SSH" PuttySession="htcc1g" Username="qli277" ExtraArgs="-pw SeaLQ123" />
+  <SessionData SessionId="HTCC Cluster Portal/htcc1g (IP)" SessionName="htcc1g (IP)" ImageKey="computer" Host="qli277@144.214.37.11" Port="22" Proto="SSH" PuttySession="htcc1g (IP)" Username="qli277" ExtraArgs="-pw SeaLQ123" />
+  <SessionData SessionId="HTCC Cluster/c8k13" SessionName="c8k13" ImageKey="computer" Host="10.37.0.223" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw SeaLQ123" />
+  <SessionData SessionId="HTCC Cluster/c8k14" SessionName="c8k14" ImageKey="computer" Host="10.37.0.224" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw SeaLQ123" />
+  <SessionData SessionId="HTCC Cluster/c8k15" SessionName="c8k15" ImageKey="computer" Host="10.37.0.225" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw SeaLQ123" />
+  <SessionData SessionId="HTCC Cluster/c8k16" SessionName="c8k16" ImageKey="computer" Host="10.37.0.226" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw SeaLQ123" />
+  <SessionData SessionId="HTCC Cluster/c8k17" SessionName="c8k17" ImageKey="computer" Host="10.37.0.227" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw SeaLQ123" />
+  <SessionData SessionId="HTCC Cluster/c8k18" SessionName="c8k18" ImageKey="computer" Host="10.37.0.228" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw SeaLQ123" />
+  <SessionData SessionId="HTCC Cluster/c8k19" SessionName="c8k19" ImageKey="computer" Host="10.37.0.229" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw SeaLQ123" />
+  <SessionData SessionId="USTC/244-k40" SessionName="244-k40" ImageKey="computer" Host="192.168.104.244" Port="22" Proto="SSH" PuttySession="Default Settings" Username="liqing" ExtraArgs="-pw liqing" />
+  <SessionData SessionId="VIREO Cluster/vireo03" SessionName="vireo03" ImageKey="computer" Host="10.37.0.103" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw 1234" />
+  <SessionData SessionId="VIREO Cluster/vireo04" SessionName="vireo04" ImageKey="computer" Host="10.37.0.104" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw 1234" />
+  <SessionData SessionId="VIREO Cluster/vireo05" SessionName="vireo05" ImageKey="computer" Host="10.37.0.105" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw 1234" />
+  <SessionData SessionId="VIREO Cluster/vireo06" SessionName="vireo06" ImageKey="computer" Host="10.37.0.106" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw 1234" />
+  <SessionData SessionId="VIREO Cluster/vireo07" SessionName="vireo07" ImageKey="computer" Host="10.37.0.107" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw 1234" />
+  <SessionData SessionId="VIREO Cluster/vireo08" SessionName="vireo08" ImageKey="computer" Host="10.37.0.108" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="-pw 1234" />
+  <SessionData SessionId="VIREO Cluster/vireo09" SessionName="vireo09" ImageKey="computer" Host="10.37.0.109" Port="22" Proto="SSH" PuttySession="Default Settings" Username="qli277" ExtraArgs="" />
+</ArrayOfSessionData>
