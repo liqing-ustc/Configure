@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Action_Options_Shortcut>F2</Action_Options_Shortcut>
+  <SessionsTreeFont>Segoe UI, 9pt</SessionsTreeFont>
+  <ShowDocumentIcons>False</ShowDocumentIcons>
+  <Action_FocusActiveSession_Shortcut>None</Action_FocusActiveSession_Shortcut>
+  <TabTextBehavior>Static</TabTextBehavior>
+  <WindowState>Maximized</WindowState>
+  <SessionsSearchMode>CaseSensitive</SessionsSearchMode>
+  <PuttyPanelShowNewSessionMenu>True</PuttyPanelShowNewSessionMenu>
+  <DefaultLayoutName>&lt;Auto Restore&gt;</DefaultLayoutName>
+  <MultipleTabCloseConfirmation>False</MultipleTabCloseConfirmation>
+  <MinttyExe>
+  </MinttyExe>
+  <AlwaysOnTop>False</AlwaysOnTop>
+  <ShowToolBarCommands>True</ShowToolBarCommands>
+  <PuttyExe>D:\DevTools\PuTTY\putty.exe</PuttyExe>
+  <PscpExe>
+  </PscpExe>
+  <TabSwitcher>SuperPutty.Utils.VisualOrderTabSwitchStrategy</TabSwitcher>
+  <SendCommandsToVisibleOnly>False</SendCommandsToVisibleOnly>
+  <Opacity>1</Opacity>
+  <ShowToolBarConnections>True</ShowToolBarConnections>
+  <SettingsFolder>D:\DevTools\SuperPuTTY-1.4.0.6</SettingsFolder>
+  <SingleInstanceMode>False</SingleInstanceMode>
+  <RestoreWindowLocation>True</RestoreWindowLocation>
+  <EnableKeyboadShortcuts>True</EnableKeyboadShortcuts>
+  <SessionsShowSearch>True</SessionsShowSearch>
+  <Action_CloseTab_Shortcut>None</Action_CloseTab_Shortcut>
+  <EnableControlTabSwitching>True</EnableControlTabSwitching>
+  <ApplicationVersion>
+  </ApplicationVersion>
+  <ExitConfirmation>True</ExitConfirmation>
+  <Action_FullScreen_Shortcut>F11</Action_FullScreen_Shortcut>
+  <DockingRestrictFloatingWindows>False</DockingRestrictFloatingWindows>
+  <ShowStatusBar>True</ShowStatusBar>
+  <RestrictContentToDocumentTabs>False</RestrictContentToDocumentTabs>
+  <WindowPosition>26, 19, 1059, 680</WindowPosition>
+  <Action_GotoConnectionBar_Shortcut>None</Action_GotoConnectionBar_Shortcut>
+  <Action_SwitchSession_Shortcut>None</Action_SwitchSession_Shortcut>
+  <Action_DuplicateSession_Shortcut>None</Action_DuplicateSession_Shortcut>
+  <ShowMenuBar>True</ShowMenuBar>
+  <Action_PrevTab_Shortcut>None</Action_PrevTab_Shortcut>
+  <Action_GotoCommandBar_Shortcut>None</Action_GotoCommandBar_Shortcut>
+  <Action_OpenSession_Shortcut>None</Action_OpenSession_Shortcut>
+  <MinimizeToTray>False</MinimizeToTray>
+  <WindowActivator>SuperPutty.Utils.KeyEventWindowActivator</WindowActivator>
+  <QuickSelectorCaseSensitiveSearch>True</QuickSelectorCaseSensitiveSearch>
+  <SessionsTreeShowLines>False</SessionsTreeShowLines>
+  <Action_NextTab_Shortcut>None</Action_NextTab_Shortcut>
+  <ExpandSessionsTreeOnStartup>False</ExpandSessionsTreeOnStartup>
+</Settings>
