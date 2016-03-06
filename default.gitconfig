@@ -1,0 +1,9 @@
+[user]
+	name = Qing Li
+	email = liqing.ustc@gmail.com
+[alias]
+	st = status
+	ct = commit
+	br = branch
+[credential]
+	helper = store
