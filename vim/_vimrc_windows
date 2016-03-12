@@ -1,45 +1,3 @@
-
-set nu!
-colorscheme desert
-syntax enable
-syntax on
-
-set tags=tags;
-set autochdir
-
-let Tlist_Show_One_File=1
-let Tlist_Exit_OnlyWindow=1
-
-let g:winManagerWindowLayout='FileExplorer|TagList'
-nmap wm :WMToggle<cr>
-
-let g:miniBufExplMapCTabSwitchBufs=1 
-let g:miniBufExplMapWindowsNavVim=1 
-let g:miniBufExplMapWindowNavArrows=1 
-
-nnoremap <silent> <F12> :A<CR>
-nnoremap <silent> <F3> :Grep<CR> 
-
-filetype plugin indent on
-" show existing tab with 4 spaces width
-set tabstop=4
-" when indenting with '>', use 4 spaces width
-set shiftwidth=4
-" On pressing tab, insert 4 spaces
-set expandtab
-
-
-let g:SuperTabRetainCompletionType=2
-" 0 - ²»¼ÇÂ¼ÉÏ´ÎµÄ²¹È«·½Ê½
-" 1 - ¼Ç×¡ÉÏ´ÎµÄ²¹È«·½Ê½,Ö±µ½ÓÃÆäËûµÄ²¹È«ÃüÁî¸Ä±äËü
-" 2 - ¼Ç×¡ÉÏ´ÎµÄ²¹È«·½Ê½,Ö±µ½°´ESCÍË³ö²åÈëÄ£Ê½ÎªÖ¹
-let g:SuperTabDefaultCompletionType="<C-X><C-O>"
-" ÉèÖÃ°´ÏÂ<Tab>ºóÄ¬ÈÏµÄ²¹È«·½Ê½, Ä¬ÈÏÊÇ<C-P>, 
-" ÏÖÔÚ¸ÄÎª<C-X><C-O>. ¹ØÓÚ<C-P>µÄ²¹È«·½Ê½, 
-" »¹ÓĞÆäËûµÄ²¹È«·½Ê½, Äã¿ÉÒÔ¿´¿´ÏÂÃæµÄÒ»Ğ©°ïÖú:
-" :help ins-completion
-" :help compl-omni
-
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
@@ -70,3 +28,55 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
+
+" added by qing li
+set nu!
+set encoding=utf-8
+
+" é«˜äº®å½“å‰è¡Œåˆ—
+set cursorline
+set cursorcolumn
+
+" ç¦æ­¢ç”Ÿæˆä¸´æ—¶æ–‡ä»¶
+set noswapfile
+set nobackup
+
+colorscheme desert
+syntax enable
+syntax on
+
+set tags=tags;
+set autochdir
+
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+
+let g:winManagerWindowLayout='FileExplorer|TagList'
+nmap wm :WMToggle<cr>
+
+let g:miniBufExplMapCTabSwitchBufs=1 
+let g:miniBufExplMapWindowsNavVim=1 
+let g:miniBufExplMapWindowNavArrows=1 
+
+nnoremap <silent> <F12> :A<CR>
+nnoremap <silent> <F3> :Grep<CR> 
+
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
+
+
+let g:SuperTabRetainCompletionType=2
+" 0 - ä¸è®°å½•ä¸Šæ¬¡çš„è¡¥å…¨æ–¹å¼
+" 1 - è®°ä½ä¸Šæ¬¡çš„è¡¥å…¨æ–¹å¼,ç›´åˆ°ç”¨å…¶ä»–çš„è¡¥å…¨å‘½ä»¤æ”¹å˜å®ƒ
+" 2 - è®°ä½ä¸Šæ¬¡çš„è¡¥å…¨æ–¹å¼,ç›´åˆ°æŒ‰ESCé€€å‡ºæ’å…¥æ¨¡å¼ä¸ºæ­¢
+let g:SuperTabDefaultCompletionType="<C-X><C-O>"
+" è®¾ç½®æŒ‰ä¸‹<Tab>åé»˜è®¤çš„è¡¥å…¨æ–¹å¼, é»˜è®¤æ˜¯<C-P>, 
+" ç°åœ¨æ”¹ä¸º<C-X><C-O>. å…³äº<C-P>çš„è¡¥å…¨æ–¹å¼, 
+" è¿˜æœ‰å…¶ä»–çš„è¡¥å…¨æ–¹å¼, ä½ å¯ä»¥çœ‹çœ‹ä¸‹é¢çš„ä¸€äº›å¸®åŠ©:
+" :help ins-completion
+" :help compl-omni
