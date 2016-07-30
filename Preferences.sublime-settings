@@ -1,6 +1,5 @@
 {
 	"SublimeLinter": "save-only",
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
