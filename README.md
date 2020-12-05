@@ -33,3 +33,11 @@ bind h splitw -h -c "#{pane_current_path}" # horizontal split (prefix h)
 set -g mouse on
 set-option -g default-shell /bin/bash
 ```
+
+## Bash
+```
+alias ll='ls -ahlF'
+force_color_prompt=yes
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '
+```
+
