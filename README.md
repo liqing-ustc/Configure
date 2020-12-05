@@ -1,4 +1,4 @@
-# This is a repository to store the configurations for some tools, such vim, tmux etc.
+# Tthe configurations for some tools, such vim, tmux etc.
 
 ## SSH
 [Connecting to GitHub with SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) \
