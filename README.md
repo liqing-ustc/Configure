@@ -1,5 +1,11 @@
 # The configurations for tools
 
+## Git
+```
+git clone --recursive <URL-OF-REPOSITORY>
+git submodule update --remote --merge
+```
+
 ## SSH
 [Connecting to GitHub with SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) \
 [Connecting to servers with SSH](https://www.ssh.com/ssh/copy-id)
