@@ -5,6 +5,19 @@
 git clone --recursive <URL-OF-REPOSITORY>
 git submodule update --remote --merge
 ```
+File: `~/.gitconfig`
+```
+[user]
+	name = Qing Li
+	email = dylan.liqing@gmail.com
+[credential]
+	helper = cache
+[alias]
+	br = branch
+	co = checkout
+	ct = commit
+	st = status
+```
 
 ## SSH
 [Connecting to GitHub with SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) \
