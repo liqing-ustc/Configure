@@ -15,7 +15,7 @@ ssh-copy-id user@server
 ```
 
 ## Tmux
-`.tmux.conf`
+File: `~/.tmux.conf`
 ```
 set -g prefix C-a
 unbind C-b
