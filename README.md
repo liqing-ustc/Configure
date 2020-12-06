@@ -15,6 +15,7 @@ ssh-copy-id user@server
 ```
 
 ## Tmux
+`.tmux.conf`
 ```
 set -g prefix C-a
 unbind C-b
@@ -47,3 +48,9 @@ force_color_prompt=yes
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '
 ```
 
+## Virtualenvwrapper for Python
+```
+pip3 install virtualenvwrapper
+# add following lines to .bashrc
+source ~/.local/bin/virtualenvwrapper.sh
+```
