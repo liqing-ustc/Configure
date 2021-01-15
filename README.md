@@ -92,6 +92,7 @@ F4 Terminal
 ; <Shift>F12 Terminal
 ```
 
-4. Test it! Open Nautilus, right click, and choose Scripts > Terminal. Or, use the keyboard shortcut that you've just configured :)
+4. Test it! Open Nautilus, right click, and choose Scripts > Terminal. Or, use the keyboard shortcut that you've just configured :) Note: Tested on Ubuntu 18.04, 20.04.
 
-Note: Tested on Ubuntu 18.04, 20.04.
+## Install python on Ubuntu 20.04
+[Install Python 3.5, 3.6 and 3.7 on Ubuntu 20.04](http://lavatechtechnology.com/post/install-python-35-36-and-37-on-ubuntu-2004/)
