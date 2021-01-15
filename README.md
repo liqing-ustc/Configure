@@ -67,3 +67,31 @@ pip3 install virtualenvwrapper
 # add following lines to .bashrc
 source ~/.local/bin/virtualenvwrapper.sh
 ```
+
+## Create shortcuts
+[Keyboard shortcut for “open a terminal here”](https://askubuntu.com/questions/68078/keyboard-shortcut-for-open-a-terminal-here)
+1. Create a script called `Terminal` (yes, without a extension) inside the folder `~/.local/share/nautilus/scripts` with the following content:
+```
+#!/bin/sh
+gnome-terminal
+```
+
+2. Make it executable, then close any Nautilus instance:
+```
+$ chmod +x Terminal
+$ nautilus -q
+```
+
+3. Create (or edit) the `~/.config/nautilus/scripts-accels` file adding these lines:
+```
+F4 Terminal
+; Commented lines must have a space after the semicolon
+; Examples of other key combinations:
+; <Control>F4 Terminal
+; <Alt>F4 Terminal
+; <Shift>F12 Terminal
+```
+
+4. Test it! Open Nautilus, right click, and choose Scripts > Terminal. Or, use the keyboard shortcut that you've just configured :)
+
+Note: Tested on Ubuntu 18.04, 20.04.
