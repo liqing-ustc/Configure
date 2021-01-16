@@ -97,3 +97,12 @@ F4 Terminal
 
 ## Install python on Ubuntu 20.04
 [Install Python 3.5, 3.6 and 3.7 on Ubuntu 20.04](http://lavatechtechnology.com/post/install-python-35-36-and-37-on-ubuntu-2004/)
+
+## Install Jupyter lab and kernels
+[Installing the Jupyter Software](https://jupyter.org/install), [Installing the IPython kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html)
+```
+pip install jupyterlab
+workon xxx
+pip install ipykernel
+python -m ipykernel install --user --name myenv
+```
