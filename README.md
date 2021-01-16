@@ -65,6 +65,7 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\w\[\033[00m\]\$ '
 ```
 pip3 install virtualenvwrapper
 # add following lines to .bashrc
+VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source ~/.local/bin/virtualenvwrapper.sh
 ```
 
