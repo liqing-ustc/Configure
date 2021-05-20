@@ -106,3 +106,7 @@ workon xxx
 pip install ipykernel
 python -m ipykernel install --user --name myenv
 ```
+```
+jupyter kernelspec list
+jupyter kernelspec uninstall [kernel-to-remove]
+```
