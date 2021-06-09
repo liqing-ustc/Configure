@@ -110,3 +110,8 @@ python -m ipykernel install --user --name myenv
 jupyter kernelspec list
 jupyter kernelspec uninstall [kernel-to-remove]
 ```
+
+## Redirect terminal outputs to file
+https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file
+![image](https://user-images.githubusercontent.com/10334851/121401799-083ef180-c90e-11eb-909b-4a9451038ad4.png)
+
